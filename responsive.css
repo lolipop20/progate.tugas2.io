@@ -1,0 +1,17 @@
+@media all and (max-width: 2000px) {
+  .lesson {
+    margin-bottom: 50px;
+  }
+
+  .container {
+    padding: 0px 15px;
+  }
+
+  .top-wrapper {
+    width: 100%;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
