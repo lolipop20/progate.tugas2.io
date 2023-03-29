@@ -6,6 +6,7 @@
 body {
   margin: 0;
   font-family: "Lucida Grande";
+  overflow-x: hidden;
 }
 
 a {
@@ -80,6 +81,19 @@ header {
 /* hero */
 .herro-wrapper {
   margin: 50px 400px;
+}
+
+.heroe {
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.heroe:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.heroe.show {
+  transform: translateX(0);
 }
 
 .heroes {

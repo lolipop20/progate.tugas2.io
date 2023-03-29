@@ -66,6 +66,14 @@ header {
   flex-wrap: wrap;
 }
 
+.coffes .coffe-cup img:hover {
+  transform: translateY(-50%);
+}
+
+.coffes ul:hover {
+  transform: translateY(250%);
+}
+
 .coffe-set > div {
   flex: auto;
   width: 150px;
